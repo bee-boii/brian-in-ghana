@@ -130,23 +130,11 @@ body > * {
     .carousel-button {
       font-size: 4rem;
     }
-    .carousel-button.prev {
-      left: -2rem;
-    }
-    .carousel-button.next {
-      right: -2rem;
-    }
   }
 
   @media (max-width: 450px) {
     .carousel-button {
       font-size: 2rem;
-    }
-    .carousel-button.prev {
-      left: -2rem;
-    }
-    .carousel-button.next {
-      right: -2rem;
     }
   }
   
