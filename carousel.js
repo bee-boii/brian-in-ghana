@@ -41,7 +41,7 @@ for (let x of images) {
         captions.querySelector("[data-active]").style.opacity = 0.0
     })
 
-    x.children[0].addEventListener("click", () => {
+    x.children[0].addEventListener("touchstart", () => {
         if (x.children[0].style.opacity == "0.15") {
             x.children[0].style.opacity = "1.0"
             captions.querySelector("[data-active]").style.opacity = 0.0
