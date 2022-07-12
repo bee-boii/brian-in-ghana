@@ -53,10 +53,10 @@ for (let x of images) {
 }
 
 const on_start = document.getElementsByClassName("on-start")[0]
-on_start.addEventListener("click", () => {
-    on_start.style.display = 'none'
-    on_start.style.zIndex = '-2'
-})
+// on_start.addEventListener("click", () => {
+//     on_start.style.display = 'none'
+//     on_start.style.zIndex = '-2'
+// })
 
 const close_msg = document.getElementsByClassName("close-msg")[0]
 close_msg.addEventListener("click", () => {

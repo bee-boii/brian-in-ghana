@@ -43,6 +43,13 @@ body > * {
   cursor: pointer;
 }
 
+.start-msg p {
+  margin: 0px;
+  padding-left: 3vh;
+  padding-right: 3vh;
+  font-size: 2vw;
+}
+
 .background {
     z-index: -1;
     width: 100%;
